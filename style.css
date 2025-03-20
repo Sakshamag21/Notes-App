@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    background: linear-gradient(135deg, #1E2A38, #3A6073);
+    font-family: "Poppins", sans-serif;
+    color: #E0E7FF;
+  }
+  
+  .heading {
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 40px;
+    font-weight: 600;
+  }
+  
+  .info-text {
+    text-align: center;
+    color: #B0BEC5;
+    font-size: 16px;
+  }
+  
+  .app {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 30px;
+    justify-content: center;
+    padding: 50px;
+  }
+  
+  .note {
+    padding: 20px;
+    border-radius: 12px;
+    resize: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+    height: 180px;
+    color: #37474F;
+    border: none;
+    background: #FFFFFF;
+    outline: none;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .note::placeholder {
+    color: #90A4AE;
+  }
+  
+  .note:hover, 
+  .note:focus {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .btn {
+    height: 180px;
+    border: 2px dashed #90A4AE;
+    background: transparent;
+    border-radius: 12px;
+    font-size: 60px;
+    font-weight: bold;
+    color: #90A4AE;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .btn:hover {
+    background: rgba(255, 255, 255, 0.15);
+    border-color: #E0E7FF;
+    color: #E0E7FF;
+  }
+  
